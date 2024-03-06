@@ -155,10 +155,6 @@ ul {
   padding: 120px 0;
 }
 
-.advantages .heading-title {
-  margin-bottom: 8px;
-}
-
 .heading-title {
   font-weight: 700;
   font-size: 36px;
@@ -167,6 +163,17 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.adventages-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -254,5 +261,3 @@ ul {
   color: #f4f4fd;
   max-width: 264px;
 }
-
-/* fixed */
