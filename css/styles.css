@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,7 +30,7 @@ ul {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -109,7 +113,7 @@ ul {
 
 .hero {
   background-color: #2e2f42;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -121,7 +125,6 @@ ul {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 
@@ -138,6 +141,9 @@ ul {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -147,6 +153,10 @@ ul {
 
 .advantages {
   padding: 120px 0;
+}
+
+.advantages .heading-title {
+  margin-bottom: 8px;
 }
 
 .heading-title {
@@ -212,7 +222,19 @@ ul {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-item {
@@ -231,5 +253,4 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
