@@ -136,6 +136,8 @@ ul {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -170,6 +172,16 @@ ul {
   overflow: hidden;
 }
 
+.advantages-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -200,7 +212,7 @@ ul {
 
 .footer {
   background-color: #2e2f42;
-  padding: 120px 0;
+  padding: 100px 1020px 100px 156px;
 }
 
 .footer-logo-item {
@@ -219,4 +231,5 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
